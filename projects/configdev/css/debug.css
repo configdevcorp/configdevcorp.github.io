@@ -1,0 +1,11 @@
+
+/* Debug */
+
+* { outline: 2px dotted red; }
+* * { outline: 2px dotted green; }
+* * * { outline: 2px dotted orange; }
+* * * * { outline: 2px dotted blue; }
+* * * * * { outline: 1px solid pink; }
+* * * * * * { outline: 1px solid black; }
+* * * * * * * { outline: 1px solid brown; }
+* * * * * * * * { outline: 1px solid #a90ba9; }

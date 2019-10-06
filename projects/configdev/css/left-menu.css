@@ -1,0 +1,45 @@
+
+
+
+.team-section .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+  .humburger-menu {
+    padding-left: 15px;
+  }
+
+  .modal.fade .modal-dialog {
+    min-width: 50%;
+  }
+
+
+
+  .modal-body {
+    padding: 0 0 0 1rem;
+  }
+
+  .modal-body .row {
+    margin-right: 0;
+    /* margin-left: 0;*/
+  }
+
+
+
+  .modal-dialog.modal-notify .modal-body {
+    padding: 0;
+  }
+
+  .modal-dialog .nav-link {
+    padding: 0 0 0 0.5rem
+  }
+
+  .modal-dialog .h5 {
+    margin-bottom: 0;
+  }
+
+  .modal.fade .modal-dialog .link-title {
+    font-weight: bold;
+  }
