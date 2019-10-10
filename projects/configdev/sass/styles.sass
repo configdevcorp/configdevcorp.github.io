@@ -1,0 +1,92 @@
+@import "fonts"
+@import "colors.css"
+@import "left-menu"
+// @import "debug.css"
+
+
+/*--- Fonts ---*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap&subset=cyrillic')
+
+
+body
+	font-family: 'Open Sans', sans-serif
+
+h1, h2, h3, h4, h4, h6
+	font-family: 'Open Sans Condensed', sans-serif
+
+
+
+
+a
+	color: var(--colorBrandBlue)
+	&:hover
+		color: var(--colorBrandLinkHover)
+
+
+
+header .side-nav
+	width: 50%
+
+.custom-scrollbar .sidenav-phone h4
+	line-height: inherit
+
+
+.custom-scrollbar .fa-times
+	position: relative
+	top: 5px
+	right: 20px
+	z-index: 100
+
+
+/* Only for snippet */
+.double-nav .breadcrumb-dn
+  color: #000
+
+.navbar .breadcrumb .breadcrumb-item.active, .navbar .breadcrumb .breadcrumb-item:before
+	color: #000
+
+
+/* Disable background image for menu */
+.sn-bg-4
+	background-image: none
+
+
+
+/*!--- .contacts-section ---*/
+.contacts .card-body a
+	color: #fff
+
+.contacts .card-body a:hover
+	color: #fff
+	text-decoration: underline
+
+
+/* Height for Logo in Menu */
+// .side-nav .logo-wrapper, .side-nav .logo-wrapper a
+// 	height: 50px
+
+
+
+/* Slider - Change size for Arrows */
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon
+	width: 100px
+	height: 100px
+  
+
+/* Styles for SectionFontAwesome Icos Social Btn */
+
+.sidenav-social .btn-floating i
+	display: inline-block
+	width: inherit
+	text-align: center
+	color: #fff !important
+
+
+
+/* Styles for Scrollspy */
+.dotted-scrollspy
+	z-index: 1
+
+/* Styles for SectionFontAwesome Icos Social Btn */
+.services-section .service-item
+	background-color: #fff
